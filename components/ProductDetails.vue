@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div class="card">
     <div class="grid grid-cols-2 gap-10">
       <div class="p-7">
@@ -26,4 +26,4 @@
   img {
     max-width: 400px;
   }
-</style>
+</style> -->

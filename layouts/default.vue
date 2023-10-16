@@ -5,8 +5,8 @@
         <NuxtLink to="/" class="font-bold">Nuxt Dojo</NuxtLink>
         <ul class="flex gap-4">
           <li><NuxtLink to="/">Home</NuxtLink></li>
-          <li><NuxtLink to="/about">About</NuxtLink></li>
-          <li><NuxtLink to="/restaurants" class="btn">Merch</NuxtLink></li>
+          <li><NuxtLink to="/restaurants">Restaurants</NuxtLink></li>
+          <li><NuxtLink to="/cart">Cart</NuxtLink></li>
         </ul>
       </nav>
     </header>
@@ -17,7 +17,14 @@
 </template>
 
 <style scoped>
+  nav,ul{
+    display: flex;
+    align-items: center;
+  }
+
+  
   .router-link-exact-active {
     color: #12b488;
   }
+
 </style>

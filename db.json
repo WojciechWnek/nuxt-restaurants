@@ -1,6 +1,8 @@
 {
   "restaurants": [
     {
+      "id": 1,
+      "slug": "italian-dream",
       "name": "Italian Dream",
       "cuisine": "Italian",
       "image": "https://media.istockphoto.com/id/652665310/pl/wektor/w%C5%82ochy.jpg?s=2048x2048&w=is&k=20&c=hDcXLl1s-rGUZgwc3NZ3whHBiRd_T248eGLNe9FD0NA=",
@@ -26,6 +28,8 @@
       ]
     },
     {
+      "id": 2,
+      "slug": "mexican-hell",
       "name": "Mexican Hell",
       "cuisine": "Mexican",
       "image": "https://media.istockphoto.com/id/652697718/pl/wektor/meksyk.jpg?s=2048x2048&w=is&k=20&c=4qOdwhYNs7PpQ1seeSTqjxHNyYQFqtEKDHpjK0TyGrM=",
@@ -51,6 +55,8 @@
       ]
     },
     {
+      "id": 3,
+      "slug": "japanese-paradise",
       "name": "Japanese Paradise",
       "cuisine": "Japanese",
       "image": "https://media.istockphoto.com/id/1264523289/pl/wektor/flaga-japonii-ilustracja-wektor.jpg?s=2048x2048&w=is&k=20&c=BQYJOznejerHexACFX1Ftmpi4SrIxb0oewM4rZaWizU=",

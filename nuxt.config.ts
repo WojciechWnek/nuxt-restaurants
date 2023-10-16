@@ -8,9 +8,9 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: 'Dobre jedzenie',
+      title: 'Good Food',
       meta: [
-        {name: 'description', content: 'Zamów jedzenie'}
+        {name: 'description', content: 'Order food'}
       ],
       link: [
         {rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons'}

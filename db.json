@@ -8,18 +8,21 @@
       "image": "https://media.istockphoto.com/id/652665310/pl/wektor/w%C5%82ochy.jpg?s=2048x2048&w=is&k=20&c=hDcXLl1s-rGUZgwc3NZ3whHBiRd_T248eGLNe9FD0NA=",
       "dishes": [
         {
+          "id": "1-1",
           "name": "Margherita Pizza",
           "price": 12.99,
           "description": "Classic pizza with tomato sauce, mozzarella, and basil.",
           "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
         },
         {
+          "id": "1-2",
           "name": "Pasta Carbonara",
           "price": 15.99,
           "description": "Creamy pasta with eggs, cheese, and pancetta.",
           "image": "https://images.unsplash.com/photo-1608756687911-aa1599ab3bd9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
         },
         {
+          "id": "1-3",
           "name": "Tiramisu",
           "price": 7.99,
           "description": "Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cheese.",
@@ -35,18 +38,21 @@
       "image": "https://media.istockphoto.com/id/652697718/pl/wektor/meksyk.jpg?s=2048x2048&w=is&k=20&c=4qOdwhYNs7PpQ1seeSTqjxHNyYQFqtEKDHpjK0TyGrM=",
       "dishes": [
         {
+          "id": "2-1",
           "name": "Taco Al Pastor",
           "price": 8.49,
           "description": "Marinated pork tacos with pineapple and onions.",
           "image": "https://media.istockphoto.com/id/1341594041/pl/zdj%C4%99cie/tacos-al-pastor-tradycyjne-meksyka%C5%84skie-jedzenie-z-cebul%C4%85-koletro-ananasem-czerwonym-sosem.jpg?s=612x612&w=0&k=20&c=J0bGGEB-eepdgWcKfBKPX79jcSBurwTfJ_Ozd6f_vH4="
         },
         {
+          "id": "2-2",
           "name": "Chicken Enchiladas",
           "price": 11.99,
           "description": "Rolled tortillas filled with seasoned chicken, topped with sauce and cheese.",
           "image": "https://media.istockphoto.com/id/1217896132/pl/zdj%C4%99cie/chicken-filled-green-enchiladas-tradycyjny-meksyka%C5%84ski-posi%C5%82ek.jpg?s=612x612&w=0&k=20&c=479Z7jHNuczEMtOa_8U2Q8kupQSY7HbbGYIne5cqQEg="
         },
         {
+          "id": "2-3",
           "name": "Churros",
           "price": 4.99,
           "description": "Deep-fried dough pastries with cinnamon and sugar.",
@@ -62,18 +68,21 @@
       "image": "https://media.istockphoto.com/id/1264523289/pl/wektor/flaga-japonii-ilustracja-wektor.jpg?s=2048x2048&w=is&k=20&c=BQYJOznejerHexACFX1Ftmpi4SrIxb0oewM4rZaWizU=",
       "dishes": [
         {
+          "id": "3-1",
           "name": "Sushi Platter",
           "price": 18.99,
           "description": "Assorted sushi rolls with fresh fish and rice.",
           "image": "https://media.istockphoto.com/id/533847980/pl/zdj%C4%99cie/zestaw-maki-sushi-i-rolki-odizolowany-na-bia%C5%82ym-tle.jpg?s=612x612&w=0&k=20&c=C8kWsoMIrhahsaBxdUKod8ZiafqO_7LZtb37IAaUFBw="
         },
         {
+          "id": "3-2",
           "name": "Ramen Noodles",
           "price": 12.49,
           "description": "Noodle soup with broth, meat, and vegetables.",
           "image": "https://media.istockphoto.com/id/511793034/pl/zdj%C4%99cie/japo%C5%84ski-ramen-zupa-z-kurczaka-jajka-szczypiorek-i-kie%C5%82ki.jpg?s=612x612&w=0&k=20&c=tbpduLdcuFlML3KMNWTFX04WmYWdxcKXsoHoU3JStr0="
         },
         {
+          "id": "3-3",
           "name": "Matcha Ice Cream",
           "price": 5.99,
           "description": "Green tea-flavored ice cream with a sweet and earthy taste.",

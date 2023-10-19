@@ -7,12 +7,32 @@
       <p class="font-bold text-gray-500 m-4 truncate">{{ dish.name }}</p>
       <p class="text-gray-500 m-4">{{ dish.description }}</p>
       <p class="font-bold text-gray-500 m-4 text-right">{{ dish.price }}</p>
+      <button @click="addToCart">Add to cart</button>
+      {{ cart.filter(id => id === dish.id).length }}
+      <button @click="deletrFromCart">Delete from cart</button>
+      {{cart}}
     </div>
   </div>
 </template>
 
 <script setup>
+  const cart = useCart()
+
   const { dish } = defineProps(['dish'])
+
+  const addToCart = () => {
+    cart.value.push(dish.id)
+    console.log(cart.value);
+  }  
+  const deletrFromCart = () => {
+    console.log(cart.value);
+
+    const index = cart.value.indexOf(dish.id)
+    if (index !== -1) {
+      cart.value.splice(index, 1);
+    }
+    console.log(cart.value);
+  }
 </script>
 
 <style scoped>

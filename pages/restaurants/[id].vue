@@ -1,16 +1,11 @@
 <template>
   <div>
-    <h1 class="font-bold text-3xl mb-2">{{ restaurant.name }}</h1>
-
-    <h2 class="font-medium text-xl text-green-600 mb-5">Avaliable dishes</h2>
-
+    <h2>{{ restaurant.name }}</h2>
     <div class="grid grid-cols-1 gap-5">
       <div v-for="dish in restaurant.dishes">
         <DishCard :dish="dish" />
       </div>
     </div>
-
-
   </div>
 </template>
 
@@ -23,3 +18,11 @@
     layout: "default",
   })
 </script>
+
+<style scoped>
+  h2{
+    margin-bottom: 1rem;
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+</style>

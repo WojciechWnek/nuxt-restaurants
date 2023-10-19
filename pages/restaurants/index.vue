@@ -16,6 +16,7 @@
 <style scoped>
   h2{
     margin-bottom: 1rem;
+    margin-bottom: 20px;
+    font-size: 36px;
   }
-
 </style>

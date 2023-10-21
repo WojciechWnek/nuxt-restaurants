@@ -1,8 +1,8 @@
 # Good Food
 
-Aplikacja do przeglądania i zamawiania jedzenia:
+An application for browsing and ordering food:
 
-- Ułatw użytkownikom przeglądanie menu restauracji, składanie zamówień online i śledzenie dostawy.
+-Facilitates users in browsing restaurant menus, placing orders online, and tracking deliveries.
 
 ## Setup
 

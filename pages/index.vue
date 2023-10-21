@@ -1,17 +1,23 @@
 <template>
   <div>
-    <h2>Home</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In perspiciatis omnis consequatur quod necessitatibus autem repellat aperiam quia atque fugit praesentium earum rerum minus, porro asperiores explicabo inventore animi ducimus. Itaque voluptatum facilis nobis, praesentium, quasi pariatur veniam veritatis quo eligendi, ratione libero impedit. Distinctio, delectus sapiente adipisci assumenda obcaecati aliquid exercitationem sit ad autem! Veritatis nihil accusamus recusandae esse?</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In perspiciatis omnis consequatur quod necessitatibus autem repellat aperiam quia atque fugit praesentium earum rerum minus, porro asperiores explicabo inventore animi ducimus. Itaque voluptatum facilis nobis, praesentium, quasi pariatur veniam veritatis quo eligendi, ratione libero impedit. Distinctio, delectus sapiente adipisci assumenda obcaecati aliquid exercitationem sit ad autem! Veritatis nihil accusamus recusandae esse?</p>
+    <h2>Welcome to Good Food – Your Culinary Gateway!</h2>
+    <p>
+      Discover a world of flavors at your fingertips with Good Food, your go-to destination for
+      convenient food ordering. From tantalizing local delicacies to international cuisine, we bring
+      your favorite restaurants right to your doorstep. Explore diverse menus, customize your
+      orders, and savor every bite, hassle-free. With secure online payments, real-time tracking,
+      and mouthwatering deals, Good Food ensures every meal is an unforgettable experience. Embrace
+      the future of food delivery – start your culinary journey with Good Food today!
+    </p>
   </div>
 </template>
 
 <style scoped>
-  h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-  }
-  p {
-    margin: 20px 0;
-  }
+h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+p {
+  margin: 20px 0;
+}
 </style>

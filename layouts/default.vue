@@ -7,6 +7,7 @@
           <li><NuxtLink to="/">Home</NuxtLink></li>
           <li><NuxtLink to="/restaurants">Restaurants</NuxtLink></li>
           <li><NuxtLink to="/cart">Cart</NuxtLink></li>
+          <li><NuxtLink to="/history">History</NuxtLink></li>
         </ul>
       </nav>
     </header>
@@ -17,14 +18,13 @@
 </template>
 
 <style scoped>
-  nav,ul{
-    display: flex;
-    align-items: center;
-  }
+nav,
+ul {
+  display: flex;
+  align-items: center;
+}
 
-  
-  .router-link-exact-active {
-    color: #12b488;
-  }
-
+.router-link-exact-active {
+  color: #12b488;
+}
 </style>

@@ -29,29 +29,56 @@
   </div>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      formData: {
-        name: "",
-        address: "",
-        phone: "",
-        email: "",
-      },
-    };
-  },
-  methods: {
-    submitForm() {
+<script setup>
+import { ref } from 'vue';
+import axios from 'axios';
 
-      // Handle form submission, e.g., send data to a server, save to a database.
-      console.log("Form submitted:", this.formData);
-      this.navigateToDelivery()
+const cart = useCart();
+
+const groupedOrders = cart.value.reduce((acc, item) => {
+  const existingItem = acc.find((i) => i.name === item.name);
+
+  if (existingItem) {
+    existingItem.quantity++;
+  } else {
+    acc.push({ name: item.name, quantity: 1, price: item.price });
+  }
+
+  return acc;
+}, []);
+
+const total = groupedOrders.reduce((accumulator, item) => {
+  return accumulator + item.quantity * item.price;
+}, 0);
+
+const formData = ref({
+  name: '',
+  address: '',
+  phone: '',
+  email: '',
+});
+
+const submitForm = async () => {
+  await axios.post(
+    'http://localhost:3000/orders/',
+    {
+      name: formData.value.name,
+      address: formData.value.address,
+      phone: formData.value.phone,
+      email: formData.value.email,
+      order: {
+        items: groupedOrders,
+        total: total,
+      },
     },
-    navigateToDelivery() {
-      this.$router.push('/delivery'); // Use $router to navigate to the '/delivery' route.
-    },
-  },
+    {
+      headers: { Accept: 'application/json', 'Content-Type': 'application/json' },
+    }
+  );
+
+  cart.value = [];
+
+  await navigateTo('/order-status');
 };
 </script>
 
@@ -65,23 +92,23 @@ export default {
   margin-bottom: 20px;
 }
 
-.submit{
+.submit {
   display: flex;
   justify-content: center;
 }
 
 h2 {
-    margin-bottom: 8px;
-    font-size: 24px;
-  }
+  margin-bottom: 8px;
+  font-size: 24px;
+}
 
 label {
   display: block;
 }
 
-input[type="text"],
-input[type="tel"],
-input[type="email"],
+input[type='text'],
+input[type='tel'],
+input[type='email'],
 textarea {
   width: 100%;
   padding: 10px;

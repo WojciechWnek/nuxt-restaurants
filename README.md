@@ -1,42 +1,28 @@
-# Nuxt 3 Minimal Starter
+# Good Food
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+Aplikacja do przeglądania i zamawiania jedzenia:
+
+- Ułatw użytkownikom przeglądanie menu restauracji, składanie zamówień online i śledzenie dostawy.
 
 ## Setup
 
-Make sure to install the dependencies:
-
 ```bash
-# yarn
-yarn install
-
-# npm
 npm install
 
-# pnpm
-pnpm install --shamefully-hoist
+npm run dev
+
+json-server --watch db.json
 ```
 
 ## Development Server
 
-Start the development server on http://localhost:3000
+- Start the development server on http://localhost:4200
+- Start the json-server server on http://localhost:3000
 
-```bash
-npm run dev
-```
+## PWA
 
-## Production
+You can download this app as a PWA.
 
-Build the application for production:
+## Author
 
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+Wojciech Wnęk

@@ -2,7 +2,7 @@
 
 An application for browsing and ordering food:
 
--Facilitates users in browsing restaurant menus, placing orders online, and tracking deliveries.
+- Facilitates users in browsing restaurant menus, placing orders online, and tracking deliveries.
 
 ## Setup
 

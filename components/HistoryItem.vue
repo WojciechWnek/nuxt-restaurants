@@ -1,7 +1,7 @@
 <template>
   <div class="order-details mb-4">
     <h3>Order Details</h3>
-    <div class="customer-info">
+    <div class="customer-info lg:flex lg:justify-between">
       <p><strong>Name:</strong> {{ order.name }}</p>
       <p><strong>Address:</strong> {{ order.address }}</p>
       <p><strong>Phone:</strong> {{ order.phone }}</p>
@@ -44,10 +44,7 @@ const { order } = defineProps(['order']);
   align-items: baseline;
   gap: 0.5rem;
 }
-.customer-info {
-  display: flex;
-  justify-content: space-between;
-}
+
 .customer-info p,
 .order-items h3 {
   margin: 10px 0;
